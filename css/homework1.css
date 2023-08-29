@@ -13,12 +13,12 @@
 #header-container {
     height: 15%;
     background-color: gray;
+    color: aliceblue;
 }
 
 /* ---------------------------------------------------- */
-#body-container1  {
+#body-container2  {
     height: 70% ;
-    display: inline-block;
 }
 
 .div {
@@ -48,4 +48,5 @@
 #footer-container {
     height: 15%;
     background-color: gray;
+    color: aliceblue;
 }
