@@ -9,6 +9,7 @@ div {
 
     /* 내부에 작성되는 요소에 상대적 위치
     (top, bottom, left, right)룰 지정할 수 있음 */
+}
 
 .first {
     width: 300px;
@@ -42,7 +43,7 @@ div {
 /* 정가운데 배치하기 */
 
 .container-2 {
-    width: 300px;
+    width: 300px; 
     height: 300px;
     position: relative;
 }
@@ -60,7 +61,6 @@ div {
     right: 0;
 
     margin: auto;
-
 }
 
 .fixed-area {
@@ -69,9 +69,8 @@ div {
     position: fixed;
 
     bottom: 50px;
-    right: 50px;
+    right: 50px
 }
-
 
 
 
