@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-container {
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------------------------- */
+
+#header {
+    height: 20%;
+    background-color: red;
+}
+
+/* ---------------------------- */
+
+#body-container {
+    height: 80%;
+    display: flex;
+}
+
+#nav {
+    width: 20%;
+    background-color: yellow;
+}
+
+/* -------------------------------------- */
+
+#body-container2 {
+    width: 80%;
+}
+
+#content {
+    height: 80%;
+    background-color: rgb(47, 255, 68);
+}
+
+#footer {
+    height: 20%;
+    background-color: aqua;
+}
+

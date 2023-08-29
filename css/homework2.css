@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-container {
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+}
+
+/* ------------------------------------------------------- */
+
+#up-container {
+    height: 20%;
+    background-color: red;
+}
+
+/* --------------------------------------------- */
+
+.div {
+    height: 100%;
+    display: inline-block;
+}
+
+#down-container1 {
+    height: 80%;
+    width: 100%;
+    background-color: rgb(18, 249, 18);
+}
+
+#down-container2 {
+    height: 100%;
+    width: 25%;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
