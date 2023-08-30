@@ -50,3 +50,38 @@
     background-color: gray;
     color: aliceblue;
 }
+
+/* 문제 1 */
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 300px;
+}
+
+.header, .footer {
+    background-color: grey;
+    flex-basis: 20%;
+}
+
+.body {
+    flex-basis: 60%;
+    display: flex;
+}
+
+.left {
+    flex-basis: 30%;
+    background-color: springgreen
+}
+
+.center {
+    flex-basis: 50%;
+    background-color: pink;
+}
+
+.right {
+    flex-basis: 20%;
+    background-color: red;
+}

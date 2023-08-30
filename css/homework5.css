@@ -1,0 +1,121 @@
+.main-container {
+    width: 800px;
+    height: 450px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------ */
+
+.up-container {
+    flex-basis: 15%;
+    background-color: yellow;
+    display: flex;
+}
+
+.dot {
+    flex-basis: 10%;
+    border: 1px solid black;
+}
+
+.left, .right {
+    flex-basis: 45%;
+    border: 1px solid black;
+}
+
+/* --------------------------------- */
+
+.down-container {
+    flex-basis: 85%;
+    display: flex;
+}
+
+.left-container {
+    flex-basis: 40%;
+    display: flex;
+}
+
+.left-bar-container {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-1, .left-2, .left-3 {
+    /* flex-basis: 33%; */
+    flex-basis: calc(100%/3);
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.right-bar {
+    flex-basis: 35%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+/* ------------------------------------ */
+
+.right-container {
+    flex-basis: 60%;
+    display: flex;
+}
+
+.mid-container {
+    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-big {
+    flex-basis: 45%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+/* --------------------------------- */
+
+.mid-foot-container {
+    flex-basis: 55%;
+    display: flex;
+}
+
+.mid-foot-left-container {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-foot-left-block1, .mid-foot-left-block2 {
+    flex-basis: 50%;
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+.mid-foot-right-block {
+    flex-basis: 50%;
+    background-color: red;
+    border: 2px solid black;
+}
+
+/* ---------------------------------- */
+
+.right-bar-container {
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-bar-high, .right-bar-row {
+    flex-basis: 15%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.right-bar-mid {
+    flex-basis: 70%;
+    background-color: pink;
+    border: 1px solid black;
+}
