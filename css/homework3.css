@@ -26,7 +26,7 @@
     background-color: burlywood;
 }
 
-.left-container {
+.right-container {
     flex-basis: 70%;
 
     display: flex;
