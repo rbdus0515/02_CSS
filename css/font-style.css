@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Rubik+Iso&display=swap');
+
+#weight-test > li {
+    font-size: 34px;
+}
+
+#weight-test > li:nth-child(1) {
+    font-weight: 600;
+}
+
+#weight-test > li:nth-child(2) {
+    font-weight: bold;
+}
+
+#weight-test > li:nth-child(3) {
+    font-weight: bolder;
+}
+
+#weight-test > li:nth-child(4) {
+    font-weight: lighter;
+}
+
+#weight-test > li:nth-child(4) {
+    font-weight: lighter;
+}
+
+#weight-test > li:nth-child(5) {
+    font-weight: normal;
+
+    /* 글꼴의 모양을 지정하는 속성 */
+    font-style: italic;
+}
+
+/* ------------------------------------------ */
+.cls > li {
+    font-size: 24px;
+}
+
+#family-test > li:nth-child(1){
+    /* 설치가 된 폰트인 경우 */
+    font-family: '궁서';
+}
+
+#family-test > li:nth-child(2){
+    /* 없는 폰트인 경우 기본폰트로 설정됨 */
+    font-family: '배민체';
+}
+
+#family-test > li:nth-child(3){
+    /* 없는 폰트이면 차선책 나열해서 사용하면 있으면 출력 */
+    font-family: '배민체', '굴림체', '돋음체';
+}
+
+/* 웹 폰트 */
+#family-test2 > li:nth-child(1) {
+    font-family: 'Rubik Iso', cursive;
+}
+
+#family-test2 > li:nth-child(2) {
+    /* @import는 css파일 최상단에 작성해야한다. */
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+@font-face {
+    font-family: 'Hangeuljaemin4-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Hangeuljaemin4-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#family-test2 > li:nth-child(3) {
+    /* @font-face는 css파일 최상단에 작성 안해도 됌. */
+    font-family: 'Hangeuljaemin4-Regular';
+}
+
+
+
