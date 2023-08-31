@@ -7,6 +7,134 @@ body {
     padding: 0;
 }
 
+main {
+    width: 1920px;
+    margin: auto;
+}
+
 div, section {
     border: 1px solid black;
+}
+
+/* ------------------------------------ */
+
+header {
+    height: 60px;
+    display: flex;
+}
+
+header > section:nth-of-type(1) {
+    display: flex;
+    flex-basis: 3%;
+}
+
+header > section:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    flex-basis: 12%;
+}
+
+header > section:nth-of-type(3) {
+    flex-basis: 75%;
+}
+
+header > section:nth-of-type(4) {
+    flex-basis: 15%;
+    display: flex;
+}
+
+/* ------------------------------------- */
+
+/* 햄버거 버튼 중앙, 투명 */
+#mainmenu-btn {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------------------------- */
+
+/* 유튭 로고 */
+
+#home-logo{
+    width: 110px;
+}
+
+/* ------------------------------------ */
+
+/* 검색창 */
+
+header > section:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-area {
+    width: 600px;
+    justify-content: center;
+}
+
+.search-area fieldset {
+    border: 1px solid #9c9c9c;
+    border-radius: 50px;
+    margin: 0;
+    padding: 2px;
+
+    display: flex;
+}
+
+#query {
+    padding: 10px;
+    font-size: 18px;
+    border: none; /* 0도 가능 */
+    /* outline : input 태그에 포커스가 맞춰졌을 때
+                이를 표현하기 위한 바깥선 */
+    outline: none;
+    flex-basis: 92%;
+    margin-left: 8px;
+    border-radius: 50px;
+}
+
+#search-btn, #keyboard-btn, #voice-search {
+    font-size: 20px;
+}
+
+#search-btn {
+    flex-basis: 15%;
+    cursor: pointer;
+    color: #5b5b5b;
+    border: none;
+    background-color: transparent;
+}
+
+#keyboard-btn {
+    background-color: transparent;
+    border: none;
+}
+
+#voice-search {
+    background-color: lightgray;
+    border-radius: 50px;
+    margin: 15px;
+    border: none;
+}
+
+/* -------------------------------------- */
+
+/* 업로드, 알림, 프로필 */
+
+header > section:nth-of-type(4) {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#upload-btn, #bell-btn, #user-btn {
+    background-color: transparent;
+    margin: 10px;
+    border: none;
+}
+
+#user-btn {
+    margin-right: 30px;
 }
