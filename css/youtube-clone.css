@@ -182,10 +182,19 @@ header > section:nth-of-type(4) {
 
 #name {
     flex-basis: 9%;
+    font-weight: 600;
+}
+
+#sub-people {
+    font-size: 12px;
+    justify-content: center;
 }
 
 #subscribe {
+    display: flex;
     flex-basis: 9%;
+    justify-content: center;
+    align-items: center;
 }
 
 #empty {
@@ -219,9 +228,41 @@ header > section:nth-of-type(4) {
     margin-right: 80px;
 }
 
+#side-video-list-nav > button {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    height: 30px;
+}
+
 /* 영상 1 */
+#side-video-no1-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#side-video-no1 section:nth-of-type(1) {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#side-video-no1 section:nth-of-type(2),
+#side-video-no1 section:nth-of-type(3),
+#side-video-no1 section:nth-of-type(4) {
+    font-size: 12px;
+}
+
+#side-video-no1 section:nth-of-type(4) {
+    background-color: lightgray;
+}
+
+
+
 #side-video-list > section:nth-of-type(1) {
-    flex-basis: 15%;
+    flex-basis: 10%;
     display: flex;
 }
 
@@ -231,6 +272,7 @@ header > section:nth-of-type(4) {
 
 #side-video-list > section:nth-of-type(1) > section:nth-of-type(2) {
     flex-basis: 55%;
+    margin-left: 5px;
 }
 
 
@@ -239,9 +281,12 @@ header > section:nth-of-type(4) {
     flex-basis: 350px;
 }
 
-#side-video-list-nav > button {
-    border-radius: 7px;
+
+#side-video-list-nav > button:nth-of-type(1) {
+    background-color: black;
+    color: white;
 }
+
 
 #shorts-logo {
     width: 80px;
