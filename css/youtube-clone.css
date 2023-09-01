@@ -13,7 +13,7 @@ main {
 }
 
 div, section {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* ------------------------------------ */
@@ -269,8 +269,6 @@ header > section:nth-of-type(4) {
     background-color: transparent;
 }
 
-
-
 #video-explanation > :nth-child(1) {
     flex-basis: 100%;
 }
@@ -280,6 +278,11 @@ header > section:nth-of-type(4) {
     color: black;
     background-color: rgb(195, 195, 195);
     border-radius: 50px;
+}
+
+#more {
+    font-weight: 600;
+    border: none;
 }
 
 /* ------------------------------ */
@@ -353,7 +356,6 @@ header > section:nth-of-type(4) {
 #side-video-no1-play {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -392,7 +394,6 @@ header > section:nth-of-type(4) {
 #side-video-no2-play {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -431,7 +432,6 @@ header > section:nth-of-type(4) {
 #side-video-no3-play {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -470,7 +470,6 @@ header > section:nth-of-type(4) {
 #side-video-no4-play {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -509,7 +508,6 @@ header > section:nth-of-type(4) {
 #side-video-no5-play {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 0;
     margin: 0;
 }
