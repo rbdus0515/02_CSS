@@ -140,10 +140,198 @@ header > section:nth-of-type(4) {
 }
 
 /* ------------------------------ */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
 
 /* 동영상 출력 */
 
+#main-container {
+    display: flex;
+}
+
+#main-view {
+    flex-basis: 70%;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+#side-video-list {
+    flex-basis: 20%; 
+}
+
+#play-video-explanation {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#video-title {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+#video-SBL {
+    display: flex;
+}
+
+#profile {
+    flex-basis: 4%;
+}
+
+#name {
+    flex-basis: 9%;
+}
+
+#subscribe {
+    flex-basis: 9%;
+}
+
+#empty {
+    flex-basis: 60%;
+}
+
+#like-hate {
+    flex-basis: 11%;
+}
+
+#share {
+    flex-basis: 7%;
+}
+
+#video-explanation {
+    display: flex;
+}
+
+#video-explanation > :nth-child(1) {
+    flex-basis: 100%;
+}
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+
+#side-video-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px ;
+    margin-right: 80px;
+}
+
+/* 영상 1 */
+#side-video-list > section:nth-of-type(1) {
+    flex-basis: 15%;
+    display: flex;
+}
+
+#side-video-list > section:nth-of-type(1) > section:nth-of-type(1) {
+    flex-basis: 45%;
+}
+
+#side-video-list > section:nth-of-type(1) > section:nth-of-type(2) {
+    flex-basis: 55%;
+}
 
 
+/* 쇼츠 */
+#side-video-list > section:nth-of-type(2) {
+    flex-basis: 350px;
+}
 
+#side-video-list-nav > button {
+    border-radius: 7px;
+}
 
+#shorts-logo {
+    width: 80px;
+}
+
+#shorts {
+    flex-basis: 30%;
+    display: flex;
+}
+
+#shorts-no1, #shorts-no2, #shorts-no3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#shorts-no1 > section:nth-of-type(1),
+#shorts-no2 > section:nth-of-type(1),
+#shorts-no3 > section:nth-of-type(1) {
+    flex-basis: 70%;
+}
+
+#shorts-no1 > section:nth-of-type(2),
+#shorts-no2 > section:nth-of-type(2),
+#shorts-no3 > section:nth-of-type(2) {
+    flex-basis: 30%;
+}
+
+#side-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: gray;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* 영상 2 */
+#side-video-list > section:nth-of-type(3) {
+    flex-basis: 15%;
+    display: flex;
+}
+
+#side-video-list > section:nth-of-type(3) > section:nth-of-type(1) {
+    flex-basis: 45%;
+}
+
+#side-video-list > section:nth-of-type(3) > section:nth-of-type(2) {
+    flex-basis: 55%;
+}
+
+/* 영상 3 */
+#side-video-list > section:nth-of-type(4) {
+    flex-basis: 15%;
+    display: flex;
+}
+
+#side-video-list > section:nth-of-type(4) > section:nth-of-type(1) {
+    flex-basis: 45%;
+}
+
+#side-video-list > section:nth-of-type(4) > section:nth-of-type(2) {
+    flex-basis: 55%;
+}
+
+/* 영상 4 */
+#side-video-list > section:nth-of-type(5) {
+    flex-basis: 15%;
+    display: flex;
+}
+
+#side-video-list > section:nth-of-type(5) > section:nth-of-type(1) {
+    flex-basis: 45%;
+}
+
+#side-video-list > section:nth-of-type(5) > section:nth-of-type(2) {
+    flex-basis: 55%;
+}
+
+/* 영상 5 */
+#side-video-list > section:nth-of-type(6) {
+    flex-basis: 15%;
+    display: flex;
+}
+
+#side-video-list > section:nth-of-type(6) > section:nth-of-type(1) {
+    flex-basis: 45%;
+}
+
+#side-video-list > section:nth-of-type(6) > section:nth-of-type(2) {
+    flex-basis: 55%;
+}
